@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C12F882720789B1C00C0D698 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C12F882620789B1C00C0D698 /* AppDelegate.m */; };
+		C12F882A20789B1C00C0D698 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C12F882920789B1C00C0D698 /* ViewController.m */; };
+		C12F882D20789B1C00C0D698 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12F882B20789B1C00C0D698 /* Main.storyboard */; };
+		C12F882F20789B1C00C0D698 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C12F882E20789B1C00C0D698 /* Assets.xcassets */; };
+		C12F883220789B1C00C0D698 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12F883020789B1C00C0D698 /* LaunchScreen.storyboard */; };
+		C12F883520789B1C00C0D698 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C12F883420789B1C00C0D698 /* main.m */; };
+		C12F883F20789B1C00C0D698 /* WeexTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C12F883E20789B1C00C0D698 /* WeexTestTests.m */; };
+		C12F884A20789B1C00C0D698 /* WeexTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C12F884920789B1C00C0D698 /* WeexTestUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C12F883B20789B1C00C0D698 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C12F881A20789B1C00C0D698 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C12F882120789B1C00C0D698;
+			remoteInfo = WeexTest;
+		};
+		C12F884620789B1C00C0D698 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C12F881A20789B1C00C0D698 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C12F882120789B1C00C0D698;
+			remoteInfo = WeexTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C12F882220789B1C00C0D698 /* WeexTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeexTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C12F882520789B1C00C0D698 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C12F882620789B1C00C0D698 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C12F882820789B1C00C0D698 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C12F882920789B1C00C0D698 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C12F882C20789B1C00C0D698 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C12F882E20789B1C00C0D698 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C12F883120789B1C00C0D698 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C12F883320789B1C00C0D698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C12F883420789B1C00C0D698 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C12F883A20789B1C00C0D698 /* WeexTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeexTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C12F883E20789B1C00C0D698 /* WeexTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeexTestTests.m; sourceTree = "<group>"; };
+		C12F884020789B1C00C0D698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C12F884520789B1C00C0D698 /* WeexTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeexTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C12F884920789B1C00C0D698 /* WeexTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeexTestUITests.m; sourceTree = "<group>"; };
+		C12F884B20789B1C00C0D698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C12F881F20789B1C00C0D698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C12F883720789B1C00C0D698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C12F884220789B1C00C0D698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C12F881920789B1C00C0D698 = {
+			isa = PBXGroup;
+			children = (
+				C12F882420789B1C00C0D698 /* WeexTest */,
+				C12F883D20789B1C00C0D698 /* WeexTestTests */,
+				C12F884820789B1C00C0D698 /* WeexTestUITests */,
+				C12F882320789B1C00C0D698 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C12F882320789B1C00C0D698 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C12F882220789B1C00C0D698 /* WeexTest.app */,
+				C12F883A20789B1C00C0D698 /* WeexTestTests.xctest */,
+				C12F884520789B1C00C0D698 /* WeexTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C12F882420789B1C00C0D698 /* WeexTest */ = {
+			isa = PBXGroup;
+			children = (
+				C12F882520789B1C00C0D698 /* AppDelegate.h */,
+				C12F882620789B1C00C0D698 /* AppDelegate.m */,
+				C12F882820789B1C00C0D698 /* ViewController.h */,
+				C12F882920789B1C00C0D698 /* ViewController.m */,
+				C12F882B20789B1C00C0D698 /* Main.storyboard */,
+				C12F882E20789B1C00C0D698 /* Assets.xcassets */,
+				C12F883020789B1C00C0D698 /* LaunchScreen.storyboard */,
+				C12F883320789B1C00C0D698 /* Info.plist */,
+				C12F883420789B1C00C0D698 /* main.m */,
+			);
+			path = WeexTest;
+			sourceTree = "<group>";
+		};
+		C12F883D20789B1C00C0D698 /* WeexTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				C12F883E20789B1C00C0D698 /* WeexTestTests.m */,
+				C12F884020789B1C00C0D698 /* Info.plist */,
+			);
+			path = WeexTestTests;
+			sourceTree = "<group>";
+		};
+		C12F884820789B1C00C0D698 /* WeexTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C12F884920789B1C00C0D698 /* WeexTestUITests.m */,
+				C12F884B20789B1C00C0D698 /* Info.plist */,
+			);
+			path = WeexTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C12F882120789B1C00C0D698 /* WeexTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C12F884E20789B1C00C0D698 /* Build configuration list for PBXNativeTarget "WeexTest" */;
+			buildPhases = (
+				C12F881E20789B1C00C0D698 /* Sources */,
+				C12F881F20789B1C00C0D698 /* Frameworks */,
+				C12F882020789B1C00C0D698 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeexTest;
+			productName = WeexTest;
+			productReference = C12F882220789B1C00C0D698 /* WeexTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C12F883920789B1C00C0D698 /* WeexTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C12F885120789B1C00C0D698 /* Build configuration list for PBXNativeTarget "WeexTestTests" */;
+			buildPhases = (
+				C12F883620789B1C00C0D698 /* Sources */,
+				C12F883720789B1C00C0D698 /* Frameworks */,
+				C12F883820789B1C00C0D698 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C12F883C20789B1C00C0D698 /* PBXTargetDependency */,
+			);
+			name = WeexTestTests;
+			productName = WeexTestTests;
+			productReference = C12F883A20789B1C00C0D698 /* WeexTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C12F884420789B1C00C0D698 /* WeexTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C12F885420789B1C00C0D698 /* Build configuration list for PBXNativeTarget "WeexTestUITests" */;
+			buildPhases = (
+				C12F884120789B1C00C0D698 /* Sources */,
+				C12F884220789B1C00C0D698 /* Frameworks */,
+				C12F884320789B1C00C0D698 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C12F884720789B1C00C0D698 /* PBXTargetDependency */,
+			);
+			name = WeexTestUITests;
+			productName = WeexTestUITests;
+			productReference = C12F884520789B1C00C0D698 /* WeexTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C12F881A20789B1C00C0D698 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					C12F882120789B1C00C0D698 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					C12F883920789B1C00C0D698 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C12F882120789B1C00C0D698;
+					};
+					C12F884420789B1C00C0D698 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C12F882120789B1C00C0D698;
+					};
+				};
+			};
+			buildConfigurationList = C12F881D20789B1C00C0D698 /* Build configuration list for PBXProject "WeexTest" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C12F881920789B1C00C0D698;
+			productRefGroup = C12F882320789B1C00C0D698 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C12F882120789B1C00C0D698 /* WeexTest */,
+				C12F883920789B1C00C0D698 /* WeexTestTests */,
+				C12F884420789B1C00C0D698 /* WeexTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C12F882020789B1C00C0D698 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C12F883220789B1C00C0D698 /* LaunchScreen.storyboard in Resources */,
+				C12F882F20789B1C00C0D698 /* Assets.xcassets in Resources */,
+				C12F882D20789B1C00C0D698 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C12F883820789B1C00C0D698 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C12F884320789B1C00C0D698 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C12F881E20789B1C00C0D698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C12F882A20789B1C00C0D698 /* ViewController.m in Sources */,
+				C12F883520789B1C00C0D698 /* main.m in Sources */,
+				C12F882720789B1C00C0D698 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C12F883620789B1C00C0D698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C12F883F20789B1C00C0D698 /* WeexTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C12F884120789B1C00C0D698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C12F884A20789B1C00C0D698 /* WeexTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C12F883C20789B1C00C0D698 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C12F882120789B1C00C0D698 /* WeexTest */;
+			targetProxy = C12F883B20789B1C00C0D698 /* PBXContainerItemProxy */;
+		};
+		C12F884720789B1C00C0D698 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C12F882120789B1C00C0D698 /* WeexTest */;
+			targetProxy = C12F884620789B1C00C0D698 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C12F882B20789B1C00C0D698 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C12F882C20789B1C00C0D698 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C12F883020789B1C00C0D698 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C12F883120789B1C00C0D698 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C12F884C20789B1C00C0D698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C12F884D20789B1C00C0D698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C12F884F20789B1C00C0D698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WeexTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lifeQC.WeexTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C12F885020789B1C00C0D698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WeexTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lifeQC.WeexTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C12F885220789B1C00C0D698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WeexTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lifeQC.WeexTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeexTest.app/WeexTest";
+			};
+			name = Debug;
+		};
+		C12F885320789B1C00C0D698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WeexTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lifeQC.WeexTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeexTest.app/WeexTest";
+			};
+			name = Release;
+		};
+		C12F885520789B1C00C0D698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WeexTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lifeQC.WeexTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WeexTest;
+			};
+			name = Debug;
+		};
+		C12F885620789B1C00C0D698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WeexTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lifeQC.WeexTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WeexTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C12F881D20789B1C00C0D698 /* Build configuration list for PBXProject "WeexTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C12F884C20789B1C00C0D698 /* Debug */,
+				C12F884D20789B1C00C0D698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C12F884E20789B1C00C0D698 /* Build configuration list for PBXNativeTarget "WeexTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C12F884F20789B1C00C0D698 /* Debug */,
+				C12F885020789B1C00C0D698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C12F885120789B1C00C0D698 /* Build configuration list for PBXNativeTarget "WeexTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C12F885220789B1C00C0D698 /* Debug */,
+				C12F885320789B1C00C0D698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C12F885420789B1C00C0D698 /* Build configuration list for PBXNativeTarget "WeexTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C12F885520789B1C00C0D698 /* Debug */,
+				C12F885620789B1C00C0D698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C12F881A20789B1C00C0D698 /* Project object */;
+}
